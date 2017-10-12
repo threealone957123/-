@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int fact(int val)
+{
+    if (val == 1||val == 0)
+        return 1;
+    else if (val <0)
+        return -1;
+    else
+        return val*fact(val - 1);
+
+}
+
+int main()
+{
+    std::cout <<"请输入一个数字："<< std::endl;
+    int v = 0;
+    std::cin>>v;
+    std::cout<< "结果是："<< fact(v)<< std::endl;
+    return 0;
+}

@@ -1,0 +1,14 @@
+//递归实现
+/*int BinarySearch(int array[],int low,int high,int value)
+{
+    if (low > high)
+        return -1;
+    int (mid = low +high)/2;
+    if (value < array[mid])
+        return BinarySearch(array,low,mid-1,value);
+    else if (value > array[mid])
+        return BinarySearch(array,mid+1,high,value);
+    else
+        return mid;
+}
+*/
